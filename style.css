@@ -1,0 +1,105 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+}
+/* div{
+  border: 1px solid black;
+  padding: 2px;
+} */
+.div {
+  height: 600px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.div-wrap {
+  background-color: #ccc;
+  margin: 0 auto;
+  width: 60%;
+  height: 100%;
+}
+.head {
+  text-align: center;
+  padding: 5px;
+}
+  
+.wrap-input1 {
+  padding: 10px;
+  text-align: center;
+}
+.wrap-input1 > input {
+  width: 80%;
+  height: 50px;
+  font-size: inherit;
+}
+.wrap-input2 {
+  padding: 10px;
+  text-align: center;
+}
+.wrap-input2 > input {
+  width: 80%;
+  height: 50px;
+  font-size: inherit;
+}
+.wrap-button {
+  text-align: center;
+  padding: 10px;
+}
+.wrap-button > button {
+  height: 40px;
+  width: 40px;
+  font-size: inherit;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.plus {
+  background-color: rgba(51, 136, 51, 0.736);
+}
+.plus:hover {
+  background-color: rgba(51, 136, 51, 0.868);
+}
+.minus {
+  background-color: rgba(169, 41, 54, 0.736);
+}
+.minus:hover {
+  background-color: rgba(169, 41, 54, 0.859);
+}
+.multy {
+  background-color: rgba(238, 225, 86, 0.8);
+}
+.multy:hover {
+  background-color: rgb(218, 206, 70);
+}
+.divider {
+  background-color: rgba(65, 166, 173, 0.736);
+}
+.divider:hover {
+  background-color: rgba(60, 155, 161, 0.896);
+}
+.wrap-button-res {
+  text-align: center;
+  padding: 10px;
+}
+.wrap-button-res > button {
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.wrap-result {
+  text-align: center;
+  padding: 20px;
+}
+.wrap-string {
+  width: 96%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid grey;
+  font-style: italic;
+}
